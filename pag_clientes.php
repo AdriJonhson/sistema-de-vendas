@@ -59,7 +59,7 @@ if(!(isset($_SESSION['id_vendedor']))){
 					<form action="php/Funcoes.php" method="POST">
 						<input type="hidden" name="idCliente" value="<?= $value['id']?>">
 						<input type="hidden" name="acao" value="excluirCliente">
-						<button class="btn btn-link" onclick="return confirm('Você realmente eseja excluir esse produto? ');">Excluir</button>
+						<button class="btn btn-link" onclick="return confirm('Você realmente eseja excluir esse cliente? ');">Excluir</button>
 					</form>
 				</td>
 			</tr>
@@ -171,11 +171,6 @@ if(!(isset($_SESSION['id_vendedor']))){
 					<div class="form-group">
 						<label for="cpf">CPF</label>
 						<input type="text" name="inpCpf" class="form-control" id="cpf" required>
-					</div>
-
-					<div class="form-group">
-						<input type="hidden" name="acao" value="cadastrarCliente">
-						<button class="btn btn-primary btn-block btn-lg">Cadastrar</button>
 					</div>
 
 				</div>
