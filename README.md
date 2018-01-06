@@ -1,6 +1,6 @@
 # sistema-de-vendas
-Sistema de vendas de móveis
--> Gerenciamento dos clientes;
--> Gerenciamento dos produtos;
--> Histórico de vendas;
+Sistema de vendas de móveis <br>
+-> Gerenciamento dos clientes;<br>
+-> Gerenciamento dos produtos;<br>
+-> Histórico de vendas;<br>
 -> Relatório em PDF;
