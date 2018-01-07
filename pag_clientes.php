@@ -114,12 +114,6 @@ if(!(isset($_SESSION['id_vendedor']))){
 						<label for="cpf">CPF</label>
 						<input type="text" name="inpCpf" class="form-control" required>
 					</div>
-
-					<div class="form-group">
-						<input type="hidden" name="acao" value="cadastrarCliente">
-						<button class="btn btn-primary btn-block btn-lg">Cadastrar</button>
-					</div>
-
 				</div>
 				<div class="modal-footer">
 					<input type="hidden" name="acao" value="cadastrarCliente">
